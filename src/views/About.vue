@@ -2,15 +2,15 @@
   <div class="about">
     <h1>This is an about page</h1>
 
-    <Slider />
+    <Carousel />
   </div>
 </template>
 
 <script>
-import Slider from '@/components/Slider'
+import Carousel from '@/components/Carousel'
 export default {
   components: {
-    Slider
+    Carousel
   }
 }
 </script>

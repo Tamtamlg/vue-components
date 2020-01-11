@@ -3,7 +3,6 @@
 	
 	<button v-on:click='prevSlide'>Prev</button>
 	<button v-on:click='nextSlide'>Next</button>
-	<button v-on:click='openSlide(3)'>Open slide 3</button>
 	
 	<div class='slider js-slider' ref="slider">
 		<div class="slider__body" :style='{left: sliderOffsetLeft + "px"}'>
